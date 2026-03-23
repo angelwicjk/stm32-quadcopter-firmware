@@ -154,7 +154,7 @@ This firmware was developed incrementally, each version building on the previous
 
 This firmware is the software layer for the custom **ICAROS** flight controller PCB, the next-generation hardware developed for the TEKNOFEST 2026 UAV competition.
 
-![ICAROS PCB](hardware/icaros_flight_controller_pcb.png)
+![ICAROS PCB](Hardware/icaros_flight_controller_pcb.jpeg)
 
 | Spec | Detail |
 |---|---|
