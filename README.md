@@ -150,9 +150,22 @@ This firmware was developed incrementally, each version building on the previous
 
 ---
 
-## Related Projects
+## ICAROS Flight Controller PCB
 
-This firmware is the software foundation for the **ICAROS** autonomous UAV project, developed for the TEKNOFEST 2026 UAV competition. ICAROS uses a custom STM32H743VIT6-based 4-layer PCB flight controller designed in Altium Designer.
+This firmware is the software layer for the custom **ICAROS** flight controller PCB, the next-generation hardware developed for the TEKNOFEST 2026 UAV competition.
+
+![ICAROS PCB](hardware/icaros_flight_controller_pcb.png)
+
+| Spec | Detail |
+|---|---|
+| MCU | STM32H743VIT6 (LQFP100) |
+| Layers | 4-layer PCB |
+| IMU | BMI270 (SPI) + BMP280 (barometric) |
+| Voltage Regulation | TPS7A4533DCQR LDO |
+| Logic Buffers | SN74LVC1G17 (open-drain protection) |
+| Design Tool | Altium Designer |
+
+The STM32F411 Nucleo used in this repo served as the prototyping platform. All algorithms validated here are being ported to the custom H743 PCB.
 
 ---
 
